@@ -4,7 +4,7 @@ import commonjs    from 'rollup-plugin-commonjs';
 import uglify      from 'rollup-plugin-uglify'
 //paths are relative to the execution path
 export default {
-  entry: 'Scripts/src/main-aot.js',
+  entry: 'Scripts/src/mainAot.js',
   dest: 'Scripts/src/aot/dist/build.js', // output a single application bundle
   sourceMap: true,
   sourceMapFile: 'Scripts/src/aot/dist/build.js.map',

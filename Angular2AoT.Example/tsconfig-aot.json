@@ -10,12 +10,12 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "typeRoots": [
-      "node_modules/@types/"
+      "../../node_modules/@types/"
     ]
   },
   "files": [
     "Scripts/src/app/app.module.ts",
-    "Scripts/src/main.ts"
+    "Scripts/src/mainAot.ts"
   ],
   "angularCompilerOptions": {
     "skipMetadataEmit": true
