@@ -10,15 +10,14 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
     "typeRoots": [
-      "../../node_modules/@types/"
+      "node_modules/@types/"
     ]
   },
   "files": [
-    "src/app/app.module.ts",
-    "src/main-aot.ts"
+    "Scripts/src/app/app.module.ts",
+    "Scripts/src/main.ts"
   ],
   "angularCompilerOptions": {
-    "genDir": "aot",
-    "skipMetadataEmit" : true
+    "skipMetadataEmit": true
   }
 }

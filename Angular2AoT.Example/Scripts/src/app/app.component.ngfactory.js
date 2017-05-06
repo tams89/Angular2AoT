@@ -4,11 +4,13 @@
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride}
  */
 /* tslint:disable */
-import * as import0 from '@angular/core';
-import * as import1 from '../../../src/app/app.component';
-import * as import2 from '@angular/common';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var import0 = require("@angular/core");
+var import1 = require("./app.component");
+var import2 = require("@angular/common");
 var styles_AppComponent = [];
-export var RenderType_AppComponent = import0.ɵcrt({
+exports.RenderType_AppComponent = import0.ɵcrt({
     encapsulation: 2,
     styles: styles_AppComponent,
     data: {}
@@ -31,7 +33,7 @@ function View_AppComponent_2(l) {
         ck(v, 1, 0, currVal_0);
     });
 }
-export function View_AppComponent_0(l) {
+function View_AppComponent_0(l) {
     return import0.ɵvid(0, [
         (l()(), import0.ɵeld(0, null, null, 1, 'button', [], null, [[
                 null,
@@ -79,11 +81,13 @@ export function View_AppComponent_0(l) {
         ck(v, 10, 0, currVal_1);
     }, null);
 }
+exports.View_AppComponent_0 = View_AppComponent_0;
 function View_AppComponent_Host_0(l) {
     return import0.ɵvid(0, [
-        (l()(), import0.ɵeld(0, null, null, 1, 'my-app', [], null, null, null, View_AppComponent_0, RenderType_AppComponent)),
+        (l()(), import0.ɵeld(0, null, null, 1, 'my-app', [], null, null, null, View_AppComponent_0, exports.RenderType_AppComponent)),
         import0.ɵdid(24576, null, 0, import1.AppComponent, [], null, null)
     ], null, null);
 }
-export var AppComponentNgFactory = import0.ɵccf('my-app', import1.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+exports.AppComponentNgFactory = import0.ɵccf('my-app', import1.AppComponent, View_AppComponent_Host_0, {}, {}, []);
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvVGFtZXNoIFNpdmFndXJ1L1NvdXJjZSBDb2RlL0FuZ3VsYXIyQW9ULkV4YW1wbGUvQW5ndWxhcjJBb1QuRXhhbXBsZS9TY3JpcHRzL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9UYW1lc2ggU2l2YWd1cnUvU291cmNlIENvZGUvQW5ndWxhcjJBb1QuRXhhbXBsZS9Bbmd1bGFyMkFvVC5FeGFtcGxlL1NjcmlwdHMvc3JjL2FwcC9hcHAuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvVGFtZXNoIFNpdmFndXJ1L1NvdXJjZSBDb2RlL0FuZ3VsYXIyQW9ULkV4YW1wbGUvQW5ndWxhcjJBb1QuRXhhbXBsZS9TY3JpcHRzL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvVGFtZXNoIFNpdmFndXJ1L1NvdXJjZSBDb2RlL0FuZ3VsYXIyQW9ULkV4YW1wbGUvQW5ndWxhcjJBb1QuRXhhbXBsZS9TY3JpcHRzL3NyYy9hcHAvYXBwLmNvbXBvbmVudC50cy5BcHBDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8YnV0dG9uIChjbGljayk9XCJ0b2dnbGVIZWFkaW5nKClcIj5Ub2dnbGUgSGVhZGluZzwvYnV0dG9uPlxyXG48aDEgKm5nSWY9XCJzaG93SGVhZGluZ1wiPkhlbGxvIEFuZ3VsYXI8L2gxPlxyXG5cclxuPGgzPkxpc3Qgb2YgSGVyb2VzPC9oMz5cclxuPGRpdiAqbmdGb3I9XCJsZXQgaGVybyBvZiBoZXJvZXNcIj57e2hlcm99fTwvZGl2PiIsIjxteS1hcHA+PC9teS1hcHA+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7SUNDQTtJQUF3Qjs7Ozs7O0lBR3hCO0lBQWlDO01BQUE7TUFBQTtJQUFBO0lBQUE7OztJQUFBO0lBQUE7Ozs7O01BSmpDO1FBQUE7UUFBQTtNQUFBO0lBQUE7TUFBQTtNQUFBO01BQVE7UUFBQTtRQUFBO01BQUE7TUFBUjtJQUFBO0lBQWtDO0lBQXVCO0lBQ3pEO2dCQUFBOzs7SUFBQTtPQUFBO1FBQUE7UUFBQTtNQUFBO0lBQUE7SUFBMEM7SUFFMUM7SUFBSTtJQUFtQjtJQUN2QjtnQkFBQTs7OztJQUFBO09BQUE7UUFBQTtRQUFBO01BQUE7SUFBQTs7OztJQUhJO0lBQUosU0FBSSxTQUFKO0lBR0s7SUFBTCxVQUFLLFNBQUw7Ozs7O0lDSkE7Z0JBQUE7Ozs7In0=
 //# sourceMappingURL=app.component.ngfactory.js.map

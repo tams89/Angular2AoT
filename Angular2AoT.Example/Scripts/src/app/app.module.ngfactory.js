@@ -4,6 +4,7 @@
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride}
  */
 /* tslint:disable */
+"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -14,11 +15,12 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-import * as import0 from '@angular/core';
-import * as import1 from '../../../src/app/app.module';
-import * as import2 from '@angular/common';
-import * as import3 from '@angular/platform-browser';
-import * as import4 from './app.component.ngfactory';
+Object.defineProperty(exports, "__esModule", { value: true });
+var import0 = require("@angular/core");
+var import1 = require("./app.module");
+var import2 = require("@angular/common");
+var import3 = require("@angular/platform-browser");
+var import4 = require("./app.component.ngfactory");
 var AppModuleInjector = (function (_super) {
     __extends(AppModuleInjector, _super);
     function AppModuleInjector(parent) {
@@ -313,5 +315,6 @@ var AppModuleInjector = (function (_super) {
     };
     return AppModuleInjector;
 }(import0.ɵNgModuleInjector));
-export var AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
+exports.AppModuleNgFactory = new import0.NgModuleFactory(AppModuleInjector, import1.AppModule);
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvVGFtZXNoIFNpdmFndXJ1L1NvdXJjZSBDb2RlL0FuZ3VsYXIyQW9ULkV4YW1wbGUvQW5ndWxhcjJBb1QuRXhhbXBsZS9TY3JpcHRzL3NyYy9hcHAvYXBwLm1vZHVsZS5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9UYW1lc2ggU2l2YWd1cnUvU291cmNlIENvZGUvQW5ndWxhcjJBb1QuRXhhbXBsZS9Bbmd1bGFyMkFvVC5FeGFtcGxlL1NjcmlwdHMvc3JjL2FwcC9hcHAubW9kdWxlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIiAiXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OyJ9
 //# sourceMappingURL=app.module.ngfactory.js.map
