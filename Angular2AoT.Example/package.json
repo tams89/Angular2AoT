@@ -5,19 +5,16 @@
   "description": "Example project from an angular.io guide.",
   "scripts": {
     "test:once": "karma start karma.conf.js --single-run",
-    "build": "tsc -p src/",
+    "build": "tsc -p Scripts/src/",
     "prestart": "npm run build",
     "start": "concurrently \"npm run build:watch\" \"npm run serve\"",
     "pretest": "npm run build",
     "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",
     "pretest:once": "npm run build",
-    "build:watch": "tsc -p src/ -w",
+    "build:watch": "tsc -p Scripts/src -w",
     "build:upgrade": "tsc",
     "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js",
-    "build:babel": "babel src -d src --extensions \".es6\" --source-maps",
-    "copy-dist-files": "node ./copy-dist-files.js",
-    "i18n": "ng-xi18n",
-    "lint": "tslint ./src/**/*.ts -t verbose"
+    "copy-dist-files": "node ./copy-dist-files.js"
   },
   "keywords": [],
   "author": "",
