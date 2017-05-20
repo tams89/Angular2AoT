@@ -14,7 +14,8 @@
     "build:watch": "tsc -p Scripts/src -w",
     "build:upgrade": "tsc",
     "build:aot": "ngc -p tsconfig-aot.json && rollup -c rollup-config.js",
-    "copy-dist-files": "node ./copy-dist-files.js"
+    "copy-dist-files": "node ./copy-dist-files.js",
+    "clean": "rimraf Scripts/src/aot"
   },
   "keywords": [],
   "author": "",
